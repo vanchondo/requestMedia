@@ -68,6 +68,6 @@ DISCOVER_PATH = REQUEST_API_URL + "/discover"
 MOVIES_TO_REQUEST = 10
 PAGES_TO_SEARCH = 100
 
-request_movies(DISCOVER_PATH + '/movies', MOVIES_TO_REQUEST, PAGES_TO_SEARCH)
+# request_movies(DISCOVER_PATH + '/movies', MOVIES_TO_REQUEST, PAGES_TO_SEARCH)
 request_movies(DISCOVER_PATH + '/trending', MOVIES_TO_REQUEST, PAGES_TO_SEARCH)
-request_movies(DISCOVER_PATH + '/movies/upcoming', MOVIES_TO_REQUEST, PAGES_TO_SEARCH)
+# request_movies(DISCOVER_PATH + '/movies/upcoming', MOVIES_TO_REQUEST, PAGES_TO_SEARCH)
